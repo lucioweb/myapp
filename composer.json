@@ -1,0 +1,37 @@
+{
+  "authors": [
+    {
+      "name": "Lúcio Flávio Lemos",
+      "email": "lucio.lemos.385@ufrn.edu.br",
+      "role": "developer",
+      "homepage": "https://luciolemos.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "description": "CRUD com Apache2, PHP e MySql",
+  "homepage": "https://github.com/lucioweb/myapp",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "name": "lucioweb/myapp",
+  "require": {
+    "php": "^7.4",
+    "coffeecode/datalayer": "1.1.*",
+    "coffeecode/router": "1.0.*",
+    "ext-pdo": "*",
+    "league/plates": "4.0.0-alpha",
+    "symfony/var-dumper": "5.4.40",
+    "twig/twig": "3.10.3"
+  },
+  "type": "project",
+  "version": "1.0.0"
+}
